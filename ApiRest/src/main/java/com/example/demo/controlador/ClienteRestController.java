@@ -20,6 +20,7 @@ import com.example.demo.models.entity.Cliente;
 @RestController
 @RequestMapping("/api")
 	public class ClienteRestController {
+	// cambio repositorio
 	
 		@Autowired
 		private ClienteService clienteService;
