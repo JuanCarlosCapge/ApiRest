@@ -79,7 +79,18 @@ public class Cliente implements Serializable{
 		this.creteAt = creteAt;
 	}
 	
+	private String imagen;
 	
+	
+	public String getImagen() {
+		return imagen;
+	}
+	public void setImagen(String imagen) {
+		this.imagen = imagen;
+	}
+	
+
+
 	/**
 	 * 
 	 */
